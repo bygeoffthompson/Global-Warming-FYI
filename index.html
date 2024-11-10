@@ -13,7 +13,7 @@
     <meta property="og:description" content="A display of Earth's average temperature data over 174 years to confidently claim that our globe is warming.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="canonical" href="https://globalwarming.fyi">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -22,6 +22,7 @@
 -->
     <style>
         body{background: url(img/earth.png) 50% 50vh/600px no-repeat #efefef;font-family:Orbitron,serif;}
+        h2{font-family:'Rubik Wet Paint',system-ui;}
         .tint{background:rgba(0,0,0,.2);}
         @media (min-width:768px) {
             body{background: url(img/earth.png) -25vw 50vh/900px no-repeat #efefef;}
@@ -38,22 +39,24 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
-<body class="align-items-center d-flex justify-content-center overflow-hidden text-center vh-100">
+<body class="align-items-start align-items-md-center d-flex justify-content-center text-center user-select-none vh-100">
     <div class="container py-3">
         <div class="row">
             <h1 class="mb-5">
-                Historical Average Annual Land Temperatures on Earth
+                Average Land Temperature on Earth Through History
             </h1>
             <p class="h2 mb-4"><span class="badge text-bg-secondary">This Year</span> <span class="badge text-bg-warning">15.76 &deg;C</span> <span class="badge text-bg-danger">60.37 &deg;F</span></p>
             <p class="h3 mb-4"><span class="badge text-bg-secondary">A Decade Ago</span> <span class="badge text-bg-warning">15.09 &deg;C</span> <span class="badge text-bg-danger">59.16 &deg;F</span></p>
             <p class="h3 mb-4"><span class="badge text-bg-secondary">Y2K</span> <span class="badge text-bg-warning">14.51 &deg;C</span> <span class="badge text-bg-danger">58.12 &deg;F</span></p>
-            <p class="h4 mb-4"><span class="badge text-bg-secondary">1950</span> <span class="badge text-bg-warning">13.80 &deg;C</span> <span class="badge text-bg-danger">56.84 &deg;F</span></p>
-            <p class="h4 mb-5"><span class="badge text-bg-secondary">1900</span> <span class="badge text-bg-warning">13.55 &deg;C</span> <span class="badge text-bg-danger">56.39 &deg;F</span></p>
+            <p class="h3 mb-4"><span class="badge text-bg-secondary">1950</span> <span class="badge text-bg-warning">13.80 &deg;C</span> <span class="badge text-bg-danger">56.84 &deg;F</span></p>
+            <p class="h3 mb-4"><span class="badge text-bg-secondary">1900</span> <span class="badge text-bg-warning">13.55 &deg;C</span> <span class="badge text-bg-danger">56.39 &deg;F</span></p>
+            <p class="h3 mb-5"><span class="badge text-bg-secondary">1850</span> <span class="badge text-bg-warning">13.69 &deg;C</span> <span class="badge text-bg-danger">56.64 &deg;F</span></p>
             <p class="h6">Sources:</p>
-            <div class="align-items-center d-flex gap-3 justify-content-center">
+            <div class="align-items-center d-flex gap-3 justify-content-center mb-5">
                 <a class="btn btn-light btn-sm" href="https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series" target="_blank">NCEI NOAA 1</a>
                 <a class="btn btn-light btn-sm" href="https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202313#gtemp" target="_blank">NCEI NOAA 2</a>
             </div>
+            <h2 class="h1">The Globe is Warming</h2>
         </div>
     </div>
 </body>
